@@ -1,0 +1,124 @@
+*body{
+    box-sizing: border-box;
+}
+.navbar-item{
+    border-style: double;
+}
+.active{
+    background-color:orange;
+    border-style: double;
+}
+.navbar-item:hover{
+    background-color: slateblue;
+}
+
+ .carousel-item {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 600px;
+    background: url(images/2.webp);
+    animation: carousel 30s infinite;
+}
+@keyframes carousel{
+    10%{
+        background: url(images/jkk.jpeg);
+    }
+    20%{
+        background: url(images/s7.jpg);
+    }
+    30%{
+        background: url(images/wedd.jpg);
+    }
+    40%{
+        background: url(images/men.jpg);
+    }
+    50%{
+        background: url(images/1.jpeg);
+    }
+    70%{
+        background: url(images/s8.jpg);
+    }
+    80%{
+        background: url(images/ladies\ w1.jpg);
+    }
+    100%{
+        background: url(images/pj.jpeg);
+    }
+
+}
+
+.about{
+    text-align: center;
+    color: blueviolet;
+   
+   border: 3px solid maroon;
+  }
+
+
+.slider{
+    width: 100%;
+    height: 600px;
+    background: url(images/ladsui3.jpg);
+    margin: 20px;
+    animation: slide 30s infinite;
+}
+@keyframes slide{
+10%{
+    background: url(images/ladsui3.jpg);
+}
+20%{
+    background: url(images/a1.jpg);
+}
+30%{
+    background: url(images/ld3.jpg);
+}
+40%{
+    background: url(images/mhd.jpg);
+}
+50%{
+    background: url(images//6.webp);
+}
+70%{
+    background: url(images/s9.jpg);
+}
+80%{
+    background: url(images/wedd.jpg);
+}
+90%{
+    background: url(images/suit.jpg);
+}
+100%{
+    background: url(images/groom.jpg);
+}
+}
+
+.service{
+    text-align: center;
+    color: blueviolet;
+   border: 3px solid maroon;
+  }
+
+.img-gallery{
+    width: 100%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.img-gallery img{
+    width: 100%;
+    height: 400px;
+}
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px blue;
+}
+
+@media (min-width:480px){
+
+}
+
+
+
+
